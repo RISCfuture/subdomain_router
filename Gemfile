@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails'
+gem 'rails', '>= 5.0.0'
 
 group :development do
   # SPECS
@@ -12,5 +12,5 @@ group :development do
 
   # DEVELOPMENT
   gem 'bundler'
-  gem 'jeweler'
+  gem 'juwelier'
 end
